@@ -1,0 +1,233 @@
+/**********************/
+/**  BASIC SETUP  **/
+/**********************/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  text-align: center;
+  font-family: 'sans-serif';
+  font-weight:300;
+  font-size: 20px;
+}
+
+
+/**********************/
+/**  HEADER  **/
+/**********************/
+
+header {
+  background-color: #32373f;
+  color: white;
+}
+
+
+/** NAVIGATION **/
+
+.main-nav {
+  text-align: center;
+  margin-top: 0px;
+  border: 0px;
+  padding: 20px;
+}
+
+.main-nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 11px;
+  color: #c8c7c7;
+}
+
+.main-nav a:link,
+.main-nav li a:visited {
+  text-decoration: none;
+  color: #c8c7c7;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+ border-bottom-width: 8px;
+ border-bottom-style: dotted;
+ border-color: #00ffaa;
+}
+
+.main-nav img {
+  width: 30px;
+}
+
+.main-nav button {
+  background-color: #32373f;
+  border: 0px;
+}
+
+.main-nav input{
+  background-color: #32373f;
+  border: 0px;
+  margin: 10px;
+}
+
+/** SLIDER **/
+
+.carousel{
+  height: 50vh;
+}
+
+.carouselText{
+  margin-bottom:30px;
+}
+
+.carousel h2 {
+  font-size: 180%;
+}
+
+/**********************/
+/**  SECTIONS  **/
+/**********************/
+
+.sections{
+  padding-top:30px;
+  padding-bottom: 40px;
+  background-color: #fafafa;
+}
+
+.sectionSelection{
+  text-align: right;
+  margin-right: 30px;
+}
+
+.sectionBigHead{
+  text-align: center;
+}
+
+.sectionSelection li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.sectionSelection li input{
+  display:block;
+  text-align: center;
+}
+
+.sectionSelection a:link,
+.sectionSelection a:visited {
+  text-decoration: none;
+  color:rgb(22, 22, 22);
+}
+
+.sectionSelection a:hover,
+.sectionSelection li a:active {
+  color:rgb(22, 22, 22);
+  border-bottom-width: 8px;
+  border-bottom-style: dotted;
+  border-color: rgb(57, 54, 226);
+}
+
+/** FIRST SECTION **/
+
+.imageContainer {
+  height: 100vh;
+}
+
+ #img0 {
+  width: 100%;
+  height: 515px;
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right:0px;
+  margin-top: 15px;
+}
+
+#img1,
+#img2 {
+  display: block;
+  width: 95%;
+  height:250px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 15px;
+}
+
+#img3,
+#img4 {
+  display: block;
+  width: 95%;
+  height: 250px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 15px;
+}
+
+.MDBRow{
+  padding:0;
+}
+
+/**  SECOND SECTION  **/
+
+.secondSec .MDBRow {
+  width:90%;
+}
+
+
+/** FORM **/
+.formSec .MDBCol{
+  float:right;
+  text-align: center;
+}
+
+.formSec h4 {
+  margin-top: 40px;
+}
+
+.formSec input[type=email],
+.formSec input[type=tel],
+.formSec input[type=password] {
+  margin: 15px;
+  padding: 15px 20px;
+  width: 60%;
+  border:none;
+  background-color: #f5f5f5;
+}
+
+.btn-submit {
+  width:30%;
+  text-align: center;
+  padding: 10px 35px;
+  scroll-margin-left: 259px;
+  background-color: rgb(57, 54, 226);
+  color: whitesmoke;
+  text-decoration: none;
+  border-color: rgb(57, 54, 226); 
+  border-radius: 2px;
+}
+
+.error {
+  color:rgb(195, 20, 20);
+  margin: 1px;
+  padding: 3px;
+}
+/** PERCENTAGE **/
+
+.statsSec {
+  text-align: left;
+}
+
+
+.statsSec h3 {
+  width: 100%;
+  text-align: left;
+}
+
+h5 {
+  color:rgb(23, 180, 207);
+  font-size:130%; 
+}
+
+
+
